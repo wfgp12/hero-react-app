@@ -1,9 +1,11 @@
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom';
 
+import 'animate.css';
+
 export const HeroCard = ({ hero }) => {
     return (
-        <div className="card p-2 " >
+        <div className="card p-2 animate__animated animate__fadeIn" >
             <img className="card-img" src={`/assets/heroes/${hero.id}.jpg`} alt={hero.superhero} />
             <div className="card-body">
                 <h5 className="card-title">{hero.superhero}</h5>
