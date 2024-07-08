@@ -1,6 +1,6 @@
 import { useMemo } from "react"
 import PropTypes from 'prop-types'
-import { getHerosByPublisher } from "../helpers/getHerosByPublisher"
+import { getHerosByPublisher } from "../helpers"
 import { HeroCard } from "./HeroCard";
 
 export const HeroList = ({ publisher }) => {
